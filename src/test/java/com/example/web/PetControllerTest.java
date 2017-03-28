@@ -28,11 +28,7 @@ import com.example.service.PetService;
 import net.minidev.json.JSONArray;
 
 @RunWith(SpringRunner.class)
-//@SpringBootTest(classes = ExampleApplication.class)
-@SpringBootTest(
-        classes = ExampleApplication.class,
-        properties = {"flyway.enabled=false"}
-        )
+@SpringBootTest(classes = ExampleApplication.class)
 @WebAppConfiguration
 public class PetControllerTest extends BaseTest {
 

@@ -23,10 +23,7 @@ import com.example.model.Category;
 import com.example.model.Pet;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(
-        classes = ExampleApplication.class,
-        properties = {"flyway.enabled=false"}
-        )
+@SpringBootTest(classes = ExampleApplication.class)
 @DataJpaTest
 public class PetRepositoryTest {
 

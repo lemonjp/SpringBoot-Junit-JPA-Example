@@ -17,10 +17,7 @@ import com.example.BaseTest;
 import com.example.ExampleApplication;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(
-        classes = ExampleApplication.class,
-        properties = {"flyway.enabled=false"}
-        )
+@SpringBootTest(classes = ExampleApplication.class)
 @WebAppConfiguration
 public class CategoryControllerTest extends BaseTest {
 
